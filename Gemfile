@@ -11,12 +11,12 @@ gem 'google-cloud-translate'
 gem 'jwt'
 gem 'rack-cors'
 gem 'rails', '~> 5.2.1'
+gem 'redis', '~> 4.0'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 
 # gem 'jbuilder', '~> 2.5'
 # gem 'mini_magick', '~> 4.8'
-# gem 'redis', '~> 4.0'
 
 # gem 'capistrano-rails', group: :development
 
