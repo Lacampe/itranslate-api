@@ -23,4 +23,5 @@
 /config/master.key
 
 # Ignore credentials
-.env
+.env*
+google_credentials.json
