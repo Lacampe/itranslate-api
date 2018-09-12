@@ -11,6 +11,6 @@ class JsonWebToken
     body = JWT.decode(token, HMAC_SECRET, true, algorithm: ALGORITHM)[0]
     HashWithIndifferentAccess.new(body)
   rescue JWT::ExpiredSignature, JWT::VerificationError, JWT::DecodeError => error
-    raise(ExceptionHandler::InvalidToken, Message.invalid_token)
+    raise(ExceptionHandler::InvalidToken, InfoMessage.invalid_token)
   end
 end

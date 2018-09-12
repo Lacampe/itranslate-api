@@ -1,4 +1,4 @@
-class Message
+class InfoMessage
   def self.account_created
     'Account was successfully created'
   end
